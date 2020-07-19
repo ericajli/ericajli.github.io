@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background:  #E30A23;
+    background:  #439DD5;
     font-family: proxima-nova, sans-serif;
     font-weight: 400;
     color: #707070;
@@ -86,6 +86,11 @@ body {
     font-size: 12px;
     color: #B2C2A8;
     background-color: #E30A23;
+}
+
+footer {
+  display: inline;
+   margin-right: 20px;
 }
 
 nav {
