@@ -57,6 +57,30 @@ body {
     }
 }
 
+
+.header {
+    max-width: 750px;
+    display: block;
+    text-align: center;
+    margin: 0 auto 150px auto;
+    padding: 0% 12%;
+}
+.header-title {
+    font-size: 90px;
+    font-weight: 700;
+    margin: 80px auto 15px auto;
+    color: #E30A23;
+    text-align: left;
+}
+
+.footer {
+    font-family: "Lato";
+    font-weight: 900;
+    font-size: 12px;
+    color: #B2C2A8;
+    background-color: #E30A23;
+}
+
 #intro {
     width: 100vw;
     height: calc(100vh - 2 * 110px);
