@@ -3,7 +3,8 @@ body {
     padding: 0;
     background:  #439DD5;
     /* font-family: proxima-nova, sans-serif; */
-    font-family: "Open Sans";
+    /* font-family: "Open Sans"; */
+    font-family: New, Courier;
     font-weight: 400;
     color: #707070;
     letter-spacing: 0.5px;
