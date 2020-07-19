@@ -91,14 +91,14 @@ body {
 
 /* typewriting start */
 /* .css-typing p { */
-.css-typing header-text{
+.header-text p{
   border-right: .15em solid orange;
   font-family: "Courier";
   font-size: 14px;
   white-space: nowrap;
   overflow: hidden;
 }
-.css-typing header-text:nth-child(1) {
+.header-text p:nth-child(1) {
   width: 7.3em;
   -webkit-animation: type 2s steps(40, end);
   animation: type 2s steps(40, end);
