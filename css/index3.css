@@ -16,6 +16,10 @@ body {
     -ms-animation: fadein 2s; /* Internet Explorer */
     -o-animation: fadein 2s; /* Opera < 12.1 */
 
+
+    /* display:flex;
+  flex-direction:column;  */
+
 }
 @keyframes fadein {
     from {
@@ -278,18 +282,124 @@ padding:0;
 
 
 
+/* #content1::after{
+    content: "\a";
+    white-space: pre;
+}
+#content2::after{
+    content: "\a";
+    white-space: pre;
+}#content3::after{
+    content: "\a";
+    white-space: pre;
+} */
+
+
+/* projects */
+.proj-wrapper {
+    margin: 0 auto;
+    width: 92%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* overflow-y: scroll; */
+}
+.proj-box {
+    margin: 0px 10px 100px 10px;
+    width: 600px;
+    height: auto;
+    flex-direction: column;
+}
+.proj-image {
+    border-radius: 5px;
+    height: 400px;
+    width: 600px;
+    position: relative;
+    overflow: hidden;
+    border: none;
+}
+.proj-image img {
+    height: auto;
+    max-width: 100%;
+    overflow: hidden;
+    transition: 0.3s;
+}
+.proj-image:hover img {
+    transform: scale(1.05);
+}
+.proj-text {
+    max-width: 600px;
+    margin: 20px 0px 20px 10px;
+}
+/* .proj-title {
+    font-size: 30px;
+    position: relative;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+.proj-body {
+    font-size: 18px;
+} */
+.proj-title{
+  font-size: 20px;
+  position: relative;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+.proj-label-box {
+    display: flex;
+}
+.proj-label {
+    font-weight: 700;
+    height: 20px;
+    font-size: 16px;
+    background-color: transparent;
+    /* color: #7FC5A8; */
+    color: #AB6EBD;
+    margin: 15px 10px 2px 0px;
+    padding: 5px 10px;
+    /* border: 1px solid #7FC5A8; */
+    border-radius: 20px;
+}
+/* end projects */
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 
 .footer {
+  /* margin-top:auto; */
+
     text-align: center;
     margin-bottom: 50px;
+
     /* font-family: "Lato";
     font-weight: 900;
     font-size: 12px; */
     /* color: #B2C2A8; */
     /* background-color: #E30A23; */
+
+    /* position: absolute;
+    bottom: 0;
+    width: 100%; */
+    /* height: 2.5rem;      */
+
+    /* clear: both;
+   position: relative;
+   height: 200px;
+   margin-top: -200px; */
 }
 
 /* footer {
@@ -300,6 +410,35 @@ padding:0;
 .footer span {
     display: inline-block;
 }
+
+.footer-container {
+    width: 95%;
+    height: 110px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-copyright {
+    margin-top: 3em;
+}
+
+#work {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 91vw;
+    margin: auto;
+    /* height: calc(100vh - 2 * 110px); */
+    background-color: #B2C2A8;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
 
 /* nav {
     font-family: "Lato";
