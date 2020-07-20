@@ -90,6 +90,18 @@ body {
 }
 
 /* start typewriter effect */
+/* .header-title{
+  width: auto;
+  display: inline-block;
+  overflow: hidden;
+  border-right: .15em solid white;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .15em;
+  animation: typing 3.5s steps(20, end),
+			 blink-caret .5s step-end;
+} */
+
 .header-text p:nth-child(2){
   width: auto;
   display: inline-block;
@@ -98,7 +110,7 @@ body {
   white-space: nowrap;
   margin: 0 auto;
   letter-spacing: .15em;
-  animation: typing 3.5s steps(30, end),
+  animation: typing 3.5s steps(120, end),
 			 blink-caret .5s step-end infinite;
 }
 
@@ -112,22 +124,6 @@ body {
   50% {border-color: orange}
 }
 /* end typewriter effect */
-
-
-@keyframes fadeIn {
-  from {opacity: 0}
-  to {opacity: 1}
-}
-
-.fadeInAnimated {
-  opacity: 0;
-  animation: fadeIn 2s forwards; /* forwards (animation-fill-mode) retains the style from the last keyframe when the animation ends */
-}
-
-#title {
-  animation-delay: 2s;
-}
-
 
 
 
