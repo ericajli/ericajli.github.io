@@ -87,15 +87,19 @@ body {
     /* color: #0C536C; */
     color: #000000;
     transition: 0.5s;
+
 }
 
 /* start typewriter effect */
 .header-text{
-    /* background: #fff; */
-    /* padding: 10px;
+  width:500;
+margin:0;
+padding:0;
+    /* background: #fff;
+    padding: 10px;
     border: 1px solid #ddd;
-    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3); */
-    /* max-width: 640px; */
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+     max-width: 640px; */
 }
 
 
@@ -145,7 +149,7 @@ body {
   position: relative;
   font-family: Consolas, Monaco, monospace;
   width: 50ch;
-  line-height: 1.45;  /* 1.2 */
+  line-height: 1.27;  /* 1.2 */
   /* word-break: break-all; */
   word-break: normal;
   overflow: hidden;
