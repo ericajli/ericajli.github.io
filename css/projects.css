@@ -90,7 +90,27 @@ a:active {
 
 #project-body figure {
     margin: 0;
+
+    /* figure {
+      display: block;
+      margin-top: 1em;
+      margin-bottom: 1em;
+      margin-left: 80px;
+      margin-right: 40px;
+    } */
+
 }
+
+#project-body img {
+  display: block;
+  /* margin: 0; */
+  /* margin-left: 100px; */
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
 
 #project-body figcaption {
     width: 90vw;
