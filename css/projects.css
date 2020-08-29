@@ -20,6 +20,10 @@ a:active {
     font-weight: 700;
 }
 
+html {
+    overflow-x: hidden;
+}
+
 .project-header {
     z-index: -1;
     position: absolute;
