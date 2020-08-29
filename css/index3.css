@@ -5,7 +5,9 @@ body {
     /* background:  #439DD5; */
     /* font-family: proxima-nova, sans-serif; */
     /* font-family: "Open Sans"; */
-    font-family: New, Courier;
+    /* font-family: New, Courier; */
+    font-family: Lucida Sans Typewriter,Lucida Console,monaco,Bitstream Vera Sans Mono,monospace; ;
+
     font-weight: 400;
     /* color: #707070; */
     /* color: #0C536C; */
@@ -429,7 +431,9 @@ padding:0;
 
 #footerLinks li{
   list-style-type: none;
-  font-family: New, Courier;
+  /* font-family: New, Courier; */
+  font-family: Lucida Sans Typewriter,Lucida Console,monaco,Bitstream Vera Sans Mono,monospace; ;
+
   font-weight: 400;
   letter-spacing: 0.5px;
 /* padding: 20px; */

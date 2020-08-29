@@ -44,7 +44,9 @@ html {
 
 .project-title h1 {
     /* font-family: "Lato"; */
-    font-family: New, Courier;
+    /* font-family: New, Courier; */
+    font-family: Lucida Sans Typewriter,Lucida Console,monaco,Bitstream Vera Sans Mono,monospace; ;
+
 
     font-weight: 900;
     font-size: 36px;
@@ -57,7 +59,9 @@ html {
 
 .project-title h2 {
     /* font-family: "Open Sans"; */
-    font-family: New, Courier;
+    /* font-family: New, Courier; */
+    font-family: Lucida Sans Typewriter,Lucida Console,monaco,Bitstream Vera Sans Mono,monospace; ;
+
 
     font-weight: 400;
     font-size: 14px;
@@ -78,7 +82,9 @@ html {
 
 #project-body {
     /* font-family: "Open Sans"; */
-    font-family: New, Courier;
+    /* font-family: New, Courier; */
+    font-family: Lucida Sans Typewriter,Lucida Console,monaco,Bitstream Vera Sans Mono,monospace; ;
+
 
     font-weight: 600;
     color: #000000;
@@ -155,7 +161,9 @@ html {
 
 .project-code-snippet {
     /* font-family: "Roboto Mono"; */
-    font-family: New, Courier
+    /* font-family: New, Courier */
+    font-family: Lucida Sans Typewriter,Lucida Console,monaco,Bitstream Vera Sans Mono,monospace; ;
+
 
     background-color: lightgray;
 }
