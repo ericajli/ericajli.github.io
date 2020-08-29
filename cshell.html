@@ -1,0 +1,131 @@
+<html lang="en"><head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="css/index3.css">
+        <link rel="stylesheet" href="css/projects.css">
+        <title>C-Shell — Erica Li</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&amp;family=Open+Sans:wght@300;400;600;700&amp;family=Roboto+Mono&amp;display=swap" rel="stylesheet"> -->
+        <link rel="shortcut icon" type="image/png" href="../images/favicon.png">
+    </head>
+
+    <body>
+        <span class="project-header"></span>
+        <div class="project-title">
+            <h1>C-Shell</h1>
+            <h2>2019</h2>
+            <h2>C</h2>
+        </div>
+
+        <div id="project-body">
+            <figure>
+                <video autoplay="true" loop="true"  muted="true" class="project-image-large" src="assets/demos/cshelldemo1.mp4"></video>
+                <!-- <figcaption>↑ ASCII art source: <a style="color: #283C37;" href="https://www.asciiart.eu/nature/beach" target="_blank">ASCIIArt.eu</a></figcaption> -->
+            </figure>
+
+
+
+            <figure>
+                <video controls="true" loop="false" muted="false" class="project-image-large" src="assets/demos/cshelldemo2.mp4"></video>
+                <figcaption>↑ Demo </figcaption>
+            </figure>
+
+
+
+            <div class="project-paragraph">
+                <p>
+                    C-Shell emulates a Linux terminal, coded in C. It parses user input, handles running processes in the foreground and background and and appropriately redirects signals, and executes built-in and system commands.
+                </p>
+
+                <!-- <p>
+                  (Demo below)
+                  </p> -->
+
+                <p>
+                    The following commands are built into C-Shell:<br>
+                    </p><table>
+                        <tbody><tr>
+                            <td><span class="project-code-snippet">&nbsp;cd [directory]&nbsp;</span></td>
+                            <td>change directory</td>
+                        </tr>
+                        <tr>
+                            <td><span class="project-code-snippet">&nbsp;rm [file]&nbsp;</span></td>
+                            <td>delete file</td>
+                        </tr>
+                        <tr>
+                            <td><span class="project-code-snippet">&nbsp;ln [source] [target]&nbsp;</span></td>
+                            <td>link source to target</td>
+                        </tr>
+                        <tr>
+                            <td><span class="project-code-snippet">&nbsp;jobs&nbsp;</span></td>
+                            <td>change directory</td>
+                        </tr>
+                        <tr>
+                            <td><span class="project-code-snippet">&nbsp;bg %[job_id]&nbsp;</span></td>
+                            <td>display current jobs in the fore and background</td>
+                        </tr>
+                        <tr>
+                            <td><span class="project-code-snippet">&nbsp;fg %[job_id]&nbsp;</span></td>
+                            <td>run specified process in the foreground</td>
+                        </tr>
+                        <tr>
+                            <td><span class="project-code-snippet">&nbsp;[command] &amp;&nbsp;</span></td>
+                            <td>execute command in the background</td>
+                        </tr>
+                        <tr>
+                            <td><span class="project-code-snippet">&nbsp;&lt;&nbsp;</span></td>
+                            <td>standard input redirection</td>
+                        </tr>
+                        <tr>
+                            <td><span class="project-code-snippet">&nbsp;&gt;&nbsp;</span></td>
+                            <td>standard output redirection</td>
+                        </tr>
+                        <tr>
+                            <td><span class="project-code-snippet">&nbsp;&gt;&gt;&nbsp;</span></td>
+                            <td>standard output redirection with appending</td>
+                        </tr>
+
+                        <tr>
+                            <td><span class="project-code-snippet">&nbsp;exit&nbsp;</span></td>
+                            <td>clean up running processes and exit</td>
+                        </tr>
+                    </tbody></table>
+                <p></p>
+                <p>
+                    Other commands (not built-in) such as <span class="project-code-snippet">&nbsp;/bin/cat&nbsp;</span> can also be executed.
+                </p>
+            </div>
+
+
+            <div class="project-paragraph">
+                <p class="project-text-small">
+                    Code cannot be shared publicly.
+                </p>
+            </div>
+        </div>
+
+
+        <div class="footer" id="intro-footer">
+                <!-- <div class="footer-container"> -->
+                    <ul class="footer-links" id="footerLinks">
+                        <!-- <li>
+                            <a href="https://ericajli.github.io/assets/Erica_Li_Resume_CS.pdf" target="_blank">Resume</a>
+                        </li> -->
+                        <li>
+                            <a href="mailto:erica_li@brown.edu">Email</a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/erica-li-30aa92177/" target="_blank">LinkedIn</a>
+                        </li>
+                    </ul>
+                    <div class="footer-copyright">
+                        ©
+                        <script type="text/javascript">
+                          var d = new Date()
+                          document.write(d.getFullYear())
+                        </script> Erica Li
+                    </div>
+                <!-- </div> -->
+            </div>
+
+</body></html>
