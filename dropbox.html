@@ -44,14 +44,33 @@
                 <p>
                     Dropbox is a storage file system coded in python. Executes commands securely.
                     Built to be secure against attacks.
-                    For authentication, protects against sql injections and dictionary attacks.
-                    For access control and file storage, protects against path traversals.
+                    <!-- For authentication, protects against sql injections and dictionary attacks.
+                    For access control and file storage, protects against path traversals. Sessions are meant to last an appropriate amount of time. Users have a limited amount of space to protect against buffer attacks.  -->
                 </p>
+                <div id="time-spent-desc">
+                <p>
+                  For authentication, protects against SQL injections and dictionary attacks, by using built-in statements and per-user salting.
+                  For access control and file storage, protects against path traversals. Sessions are meant to last an appropriate amount of time (an hour in this case). Users have a limited amount of space to protect against buffer attacks.
 
+                  </p>
+</div>
                 <p>
                     The following commands used in Dropbox:<br>
                     </p><table>
-                        <tbody><tr>
+                        <tbody>
+
+                          <!-- adding these new commands -->
+                          <tr>
+                              <td><span class="project-code-snippet">&nbsp;register [username][password]&nbsp;</span></td>
+                              <td>register user in dropbox system</td>
+                          </tr>
+                          <tr>
+                              <td><span class="project-code-snippet">&nbsp;login [username][password]&nbsp;</span></td>
+                              <td>login into system</td>
+                          </tr>
+
+
+                        <tr>
                             <td><span class="project-code-snippet">&nbsp;cd [directory]&nbsp;</span></td>
                             <td>change directory</td>
                         </tr>
@@ -69,34 +88,68 @@
                             <td>link source to target</td>
                         </tr> -->
 
+                        <!-- adding these new commands -->
+                        <tr>
+                            <td><span class="project-code-snippet">&nbsp;upload [localpath][remotepath]&nbsp;</span></td>
+                            <td>upload file from local to dropbox</td>
+                        </tr>
+                        <tr>
+                            <td><span class="project-code-snippet">&nbsp;download [localpath][remotepath]&nbsp;</span></td>
+                            <td>download file from dropbox to local</td>
+                        </tr>
+
+                        <tr>
+                            <td><span class="project-code-snippet">&nbsp;ls [path]&nbsp;</span></td>
+                            <td>list out files in a directory</td>
+                        </tr>
+                        <!-- <tr>
+                            <td><span class="project-code-snippet">&nbsp;quit&nbsp;</span></td>
+                            <td>logs out and exits program</td>
+                        </tr> -->
+                        <tr>
+                            <td><span class="project-code-snippet">&nbsp;help&nbsp;</span></td>
+                            <td>displays list of commands</td>
+                        </tr>
+                        <tr>
+                            <td><span class="project-code-snippet">&nbsp;delete_account&nbsp;</span></td>
+                            <td>deletes files, folders, and user from system</td>
+                        </tr>
+                        <tr>
+                            <td><span class="project-code-snippet">&nbsp;cat [path]&nbsp;</span></td>
+                            <td>prints out file to terminal</td>
+                        </tr>
+
                         <tr>
                             <td><span class="project-code-snippet">&nbsp;logout&nbsp;</span></td>
                             <td>logout of system</td>
                         </tr>
                         <tr>
                             <td><span class="project-code-snippet">&nbsp;exit&nbsp;</span></td>
-                            <td>exist system</td>
+                            <td>logs out and exits system</td>
                         </tr>
 
                     </tbody></table>
                 <p></p>
 
 
-                <!-- Available commands:
-    	register <username> <password>
-    	upload <localpath> <remotepath>
-    	download <remotepath> <localpath>
-    	ls [<path>]
+  <!-- Available commands:
+  cd [<path>]
+  mkdir <path>
+  egister <username> <password>
+  upload <localpath> <remotepath>
+  download <remotepath> <localpath>
+  login <username> <password>
+  logout
+  exit
+  rm <path>
+
+      ls [<path>]
     	quit
-    	exit
     	help
-    	login <username> <password>
-    	logout
     	delete_account
-    	cd [<path>]
-    	mkdir <path>
-    	rm <path>
-    	cat <remotepath> -->
+    	cat <remotepath>
+
+    -->
 
 
 
